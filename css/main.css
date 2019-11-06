@@ -1,15 +1,15 @@
 html {
-  box-sizing= border-box;
-  font-family= sans-serif;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
-  box-sizing= inherit;
+  box-sizing: inherit;
 }
 
 .img-flex {
   display: block;
-  width: 100%
+  width: 100%;
 }
 
 .card {
@@ -18,7 +18,7 @@ html {
   border-radius: 0 6px 6px;
 }
 
-.card-body{
+.card-body {
   padding: .2rem 1rem;
 }
 
@@ -28,11 +28,18 @@ html {
   position: absolute;
   bottom: 0;
   left: 0;
-  width; 100%;
+  width: 100%;
 }
 
-.card-label{
+.card-label {
   padding: .3rem 1rem .3rem calc(1rem - 4px);
   border-left: 4px solid green;
   background-color: rgba(255, 255, 255, .6);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.card-head {
+  position: relative;
 }
